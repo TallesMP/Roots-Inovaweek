@@ -18,53 +18,52 @@ export default function App() {
       case 'Avisos':
         return (
           <>
-            <Box2
+            <Box
             titulo="Sensor 1 - Café"
             conteudos={[
               "- pH elevado: recomenda-se correção do solo com aplicação de calcário (calagem) ",
             ]}
           />
-            <Box2
+            <Box
             titulo="Sensor 2 - Milho"
             conteudos={[
               "- Potássio baixo: recomenda-se adubação do solo com cobertura de sulfato ou cloreto de potássio",
             ]}
           /><
-            Box2
+            Box
             titulo="Sensor 3 - Feijão"
             conteudos={[
               "- pH insuficiente: recomenda-se adubação com enxofre ou matéria orgânica rica em nitrogênio",
             ]}
           />
 
-
           </>
         );
       case 'Geral':
         return (
           <>
-            <Box
+            <Box2
               titulo="Café"
               conteudos={[
-                "- Teperatura do solo: ok",
-                "- Umidade: ok",
-                "- pH: Acido demais",
+                "- Temperatura do solo: 19°C (OK)",
+                "- Umidade: 10,8% (OK)",
+                "- pH: 4 (Acido demais)",
               ]}
             />
-            <Box
+            <Box2
               titulo="Milho"
               conteudos={[
-                "- Teperatura do solo: ok",
-                "- Umidade: ok",
-                "- Potassio: Baixo",
+                "- Temperatura do solo: 26°C (OK)",
+                "- Umidade: 16% (OK)",
+                "- pH: 6,8 (OK)",
               ]}
             />
-            <Box
+            <Box2
               titulo="Feijão"
               conteudos={[
-                "- Teperatura do solo: ok",
-                "- Umidade: ok",
-                "- pH: Alcalino demais",
+                "- Temperatura do solo: 27°C (OK)",
+                "- Umidade: 12% (OK)",
+                "- pH: 8 (Alcalino demais)",
               ]}
             />
 

@@ -9,6 +9,16 @@ export default function CalendarWithText() {
       selected: true,
       selectedColor: '#00a000', // Cor de fundo para a data destacada
     },
+    '2024-09-11': {
+      marked: true, dotColor: '#00a000'
+    },
+    '2024-09-13': {
+      marked: true, dotColor: '#00a000'
+    },
+    '2024-09-27': {
+      marked: true, dotColor: '#00a000'
+    }, 
+
   };
 
   return (
@@ -40,7 +50,7 @@ export default function CalendarWithText() {
       <ScrollView style={styles.textContainer}>
         <Text style={styles.text}>11- Produção de milho caiu 14% nos últimos 10 dias.</Text>
         <Text style={styles.text}>13- Inicio da época de laranja.</Text>
-        <Text style={styles.text}>21- Previsão de chuvas intensas.</Text>
+        <Text style={styles.text}>27- Previsão de chuvas intensas.</Text>
       </ScrollView>
     </View>
   );
@@ -65,6 +75,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 5,
     elevation: 3, // Sombra para Android
+    justifyContent: 'center',
+    alignSelf: 'center'
   },
   textContainer: {
     width: '90%',

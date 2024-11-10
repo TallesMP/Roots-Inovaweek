@@ -7,16 +7,17 @@ const Profile = () => {
     <View style={styles.container}>
       <Image
         style={styles.profileImage}
-        source={{ uri: 'https://via.placeholder.com/150' }} // Imagem genérica de perfil
+        source={ require('../assets/user_pic.png') }
       />
-      <Text style={styles.name}>Nome do Usuário</Text>
+      <Text style={styles.name}>Usuario</Text>
       <Text style={styles.email}>usuario@email.com</Text>
       
       <View style={styles.infoContainer}>
         <Text style={styles.infoTitle}>Informações Adicionais:</Text>
-        <Text style={styles.infoText}>Localização: São Paulo, BR</Text>
-        <Text style={styles.infoText}>Data de Nascimento: 01/01/1990</Text>
-        <Text style={styles.infoText}>Profissão: Desenvolvedor</Text>
+        <Text style={styles.infoText}>Localização: Espirito Santo, BR</Text>
+        <Text style={styles.infoText}>Data de Nascimento: 25/07/1963</Text>
+        <Text style={styles.infoText}>Telefone: +55 27 99999-9999</Text>
+
       </View>
     </View>
   );
@@ -30,8 +31,8 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   profileImage: {
-    width: 150,
-    height: 150,
+    width: 130,
+    height: 130,
     borderRadius: 75,
     marginBottom: 20,
   },

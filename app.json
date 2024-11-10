@@ -23,6 +23,17 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "App roots do inova\n"
+    "description": "App roots do inova\n",
+    "extra": {
+      "eas": {
+        "projectId": "60ee762d-2f9d-4b6d-9e92-d83bf9baf679"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/60ee762d-2f9d-4b6d-9e92-d83bf9baf679"
+    }
   }
 }

@@ -1,11 +1,20 @@
-# Sample Snack app
+# Projeto de Inovação para Agricultura Familiar
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este repositório contém o código de um aplicativo móvel desenvolvido para o InovaWeek 2024, um evento de inovação da UVV. O projeto foi criado com o objetivo de ajudar agricultores familiares a integrar tecnologia no gerenciamento de suas plantações, oferecendo sugestões para o manejo do solo com base em dados coletados por um sensor.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+### Descrição
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+O aplicativo foi desenvolvido usando **React Native** e é uma versão estática que ilustra a ideia central do projeto. A premissa original era coletar dados de um sensor idealizado pela equipe para sugerir ações específicas ao agricultor com base nas condições do solo. O aplicativo também incluiria um calendário de previsões, fornecendo informações sobre os melhores períodos para plantio e colheita, além de alertas sobre condições climáticas que poderiam impactar a plantação, como chuvas fortes.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+No evento, apresentamos essa versão estática do aplicativo, hospedada no Vercel, permitindo que os espectadores escaneassem um QR code e visualizassem a proposta da nossa solução.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### Tecnologias Usadas
+
+- **React Native** - Framework para desenvolvimento de aplicativos móveis.
+- **Vercel** - Plataforma de hospedagem usada para apresentar o aplicativo aos espectadores do evento.
+
+### Outros Integrantes
+
+- [@jpdaher](https://github.com/jpdaher)
+- [@Novellirian](https://github.com/Novellirian)
+- [@talespcalvi](https://github.com/talespcalvi)
